@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Orçamento</title>
+
+</head>
+
+<body>
+    <!-- Cabeçalho pagina-->
+    <header>
+        <img src="imagens/logo_200px.png" alt="logo">
+        <h1>Tecnologia máxima em segurança eletrônica.</h1>
+
+        <!-- imagens Icones header todas as paginas-->
+        <span>
+            <a class="iheader_span_icon" href=" https://api.whatsapp.com/send?l=pt&phone=5537998288934" target="_blank"
+                rel="external"><img src="imagens/icon_whats.png" alt="Iconi whtsapp"></a>
+            <a class="iheader_span_icon" href="#" target="_blank" rel="external"><img src="imagens/icon_fac.png"
+                    alt="Iconi facebook"></a>
+            <a class="iheader_span_icon" href="#" target="_blank" rel="external"><img src="imagens/icon_sta.png"
+                    alt="Iconi instagram"></a>
+            <a class="iheader_span_icon" href="https://www.youtube.com/channel/UCXhk79KA7hl7HhXbu6_HDlg" target="_blank"
+                rel="external"><img src="imagens/icon_yut.png" alt="Iconi youtube"></a>
+        </span>
+    </header>
+
+    <hr id="ihr_principal">
+
+    <!--Menu pagina-->
+    <nav id="inave_paginas">
+        <div id="icaixa_menu_paginas">
+            <span class="isombra_menu"><a class="imenu_paginas" id="ihome" href="Index.html">Home</a></span>
+            <span class="isombra_menu"><a class="imenu_paginas" id="ihistoria" href="historia da cftv.html">Historia da
+                    CFVT</a></span>
+            <span class="isombra_menu"><a class="imenu_paginas" id="itrabalhos"
+                    href="Trabalhos.html">Trabalhos</a></span>
+            <span class="isombra_menu"><a class="imenu_paginas" id="itransmissao"
+                    href="transmissao.html">Transmissão</a></span>
+            <span class="isombra_menu"><a class="imenu_paginas" id="ifale_conosco" href="Fale conosco.html">Fale
+                    Conosco</a></span>
+            <span class="isombra_menu"><a class="imenu_paginas" id="imenu_formulario"
+                    href="Orçamento.html">Orçamento</a></span>
+        </div>
+    </nav>
+    
+    <!-- corpo da pagina-->
+    <main id="imain_formulario">
+        <!--Inicio Formulario Orçamentos-->
+        <section id="section_formulario">
+            <div>
+                <form action="">
+                    <div>
+                        <fieldset id="ifieldset_cadastro">
+                            <legend class="ilegenda_todas" id="ilegend_cadastro">Cadastro</legend>
+                            <div class="idiv_cadrastro">
+                                <label for="inome">Nome: </label>
+                                <input type="text" required size="50" placeholder="Nome completo" id="inome">
+                            </div>
+                            <div class="idiv_cadrastro">
+                                <label for="imail">e-mail: </label>
+                                <input type="email" required size="30" id="imail">
+                            </div>
+                            <div class="idiv_cadrastro">
+                                <label for="itelefone">Telefone: </label>
+                                <input type="tel" required size="30" placeholder="Não esqueça do DDD" id="itelefone">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <fieldset id="ifieldset_monte_kit">
+                        <legend class="ilegenda_todas" id="ilegenda_monte_kit">Monte seu kit</legend>
+                        <div>
+                            <fieldset id="ifieldset_modelo_cam">
+                                <legend class="ilegenda_todas">Modelos de Câmeras</legend>
+                                <select name="Câmeras JFL" id="iformulario_cameras">
+                                    <optgroup label="Câmeras JFL">
+                                        <option value="">Câmera JFL CHD-1230P - HD 720P</option>
+                                        <option value="">Câmera Dome JfL CHD-1215P IP66 Ir 15m</option>
+                                    </optgroup>
+                                    <optgroup label="Câmeras Intelbras">
+                                        <option value="">Câmera de segurança Intelbras VHD 1010</option>
+                                        <option value="">Câmera 4K super eficiente com zoom óptico de 3x e LEDs</option>
+                                        <option value="">Câmera Intelbras HD VHL 1120 D HDCVI Lite 720p</option>
+                                    </optgroup>
+                                    <optgroup label="Câmeras Hikvision">
+                                        <option value="">Câmera de segurança Hikvision DS-2CE16C0T-IRPF</option>
+                                        <option value="">Câmera Hikvision Ds-2ce5ac0t-irp Hd 3.0 Dome 2,8mm Ir Full
+                                        </option>
+                                    </optgroup>
+                                </select>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <fieldset id="ifiedset_modelo_dvr">
+                                <legend class="ilegenda_todas">Modelos de DVRs</legend>
+                                <select name="DVRs JFL" id="iformulario_dvr">
+                                    <optgroup label="DVRs JFL">
+                                        <option value="">Dvr Gravador 8 Canais Stand Alone Dhd-2208n Jfl</option>
+                                        <option value="">Dvr Gravador Pentaplex Jfl 8 Canais 5em1 Hd 1080n Dhd 2108n
+                                        </option>
+                                    </optgroup>
+                                    <optgroup label="DVRs Intelbras">
+                                        <option value="">Dvr Intelbras Mhdx 1104 4 Canais Multi Hd G3 - Lançamento
+                                        </option>
+                                        <option value="">DVR Intelbras MHDX 1108 Multi HD de 8 Canais 1080p Lite + 2
+                                            Canais 6Mp IP</option>
+                                    </optgroup>
+                                    <optgroup label="DVRs Hikvision">
+                                        <option value="">Dvr Hikvision 8 Canais Ds-7108hghi-k1 Full Hd 1080p H265
+                                        </option>
+                                        <option value="">DVR FULL HD+ 8 CANAIS ACUSENSE 4MP LITE TURBO HD -
+                                            IDS-7208HQHI-M1/S HIKVISION</option>
+                                    </optgroup>
+                                </select>
+                            </fieldset>
+                        </div>
+
+                        <div>
+                            <fieldset id="ifieldset_cabo">
+                                <legend class="ilegenda_todas">Cabo</legend>
+                                <label for="input_rolo_cabo">Rolo de Cabo: </label>
+                                <input type="number" placeholder="Cada Rolo Contem 100Mts" id="input_rolo_cabo">
+                            </fieldset>
+                        </div>
+                        <div>
+                            <fieldset id="ifieldset_fontes">
+                                <legend class="ilegenda_todas">Modelos de Fontes</legend>
+                                <select name="Modelos de Fontes" id="iformulario_fontes">
+                                    <optgroup label="Fontes">
+                                        <option value="">Fonte 1amp</option>
+                                        <option value="">Fonte 2amp</option>
+                                        <option value="">Fonte 5amp</option>
+                                        <option value="">Fonte 10amp</option>
+                                    </optgroup>
+                                </select>
+                            </fieldset>
+                        </div>
+                        <div id="idiv_observaçoes">
+                            <fieldset id="ifieldset_observaçoes">
+                                <legend class="ilegenda_todas">Obsevações</legend>
+                                <textarea name="Observações" id="" cols="89" rows="10"
+                                    placeholder="Se tiver duvidas, descreva aqui!"></textarea>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <input type="submit" id="iinput_enviar" value="Enviar Orçamento" required>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <!--fim do formulario-->
+    </main>
+    
+    <!--footer dotas as paginas-->
+    <footer id="ifooter_formulario" class="cfooter_geral">
+        <p>&reg; Todos os Direitos reservados a <strong><abbr
+                    title="Este site é meramente ilustrativo (foi desenvolvido para um projeto modulo 01 HTML5-CSS3 Basico na Step Computer Academy">Sekuran
+                    Segurança Eletrônica</abbr></strong> - Site desenvolvido por <strong><a
+                    href="https://github.com/edmarferreiracardoso" target="_blank" rel="external">Edmar Ferreira
+                    Cardoso</a>.</strong></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,646 @@
+@charset "UTF-8";
+
+/*fontes do site*/
+@font-face {
+    font-family: 'font_01';
+    src: url('../fontes/Fenix-Regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'font_02';
+    src: url('../fontes/PoiretOne-Regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'font_03';
+    src: url('../fontes/norwester.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'font_04';
+    src: url('../fontes/Montserrat-Light.ttf') format('opentype');
+}
+
+/* variáveis definidas */
+:root {
+    --cor_logo: #307CBF;
+    --cor_00: #e8f0f8;
+    --cor_1: #0511F2;
+    --cor_2: #565AA6;
+    --cor_3: #038C7F;
+    --cor_4: #0D0D0D;
+    --font_01: 'font_01';
+    --font_02: 'font_02';
+    --font_03: 'font_03';
+    --font_04: 'font_04';
+}
+
+/*margens de todas paginas*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*Cabeçalho todas as paginas*/
+header {
+    padding: 5px 0px 5px 50px;
+}
+
+header>h1 {
+    font-size: 1.5em;
+    font-family: var(--font_04);
+    color: var(--cor_logo);
+    display: inline;
+    text-transform: uppercase;
+}
+
+.iheader_span_icon {
+    position: relative;
+    top: -80px;
+    left: 90px;
+    transition: 3s;
+}
+
+.iheader_span_icon:hover {
+    position: relative;
+    top: -70px;
+    left: 90px;
+    transition: 1s;
+
+}
+
+/*hr pagina todas as paginas*/
+#ihr_principal {
+    height: 50px;
+    background-image: linear-gradient(to top, #e8f0f8, transparent);
+    border: transparent;
+    box-shadow: 3px 3px 3px #e8f0f8;
+}
+
+/*Menu nav pagina principal*/
+
+#inave_menu_principal {
+    position: relative;
+    top: 70px;
+    left: -40px;
+    width: 170px;
+    background-color: rgb(234, 242, 249);
+    margin: 35px 0px 0px 160px;
+    box-shadow: 3px 3px 3px #565aa686;
+}
+
+.idiv_menus {
+    border-top: 1px solid #565aa696;
+    padding: 24px 10px 24px 10px;
+}
+
+#idiv_menus_border {
+    border-bottom: 1px solid #565aa696;
+}
+
+.imenu_principal {
+    text-decoration: none;
+    font-family: var(--font_04);
+    color: var(--cor_4);
+    font-weight: bold;
+}
+
+.imenu_principal:hover {
+    color: var(--cor_logo);
+    font-size: 1.1em;
+    transition: 1s;
+
+}
+
+.idiv_menus:hover {
+    box-shadow: 5px 5px 5px var(--cor_4);
+    transition: 0.4s;
+
+}
+
+#idiv_menus_border:hover {
+    box-shadow: 5px 5px 5px var(--cor_4);
+    transition-duration: 0.4s;
+}
+
+/*corpo da pagina principal main*/
+
+#icaixa_capa {
+    position: relative;
+}
+
+#icapa>img {
+    position: absolute;
+    left: 350px;
+    top: -335px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px var(--cor_4);
+}
+
+#iaudio_principal {
+    position: relative;
+}
+
+
+#iaudio {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 30px;
+    top: -440px;
+    transition: 3s;
+    background-color: var(--cor_4);
+}
+
+#iaudio:hover {
+    box-shadow: 8px 8px 8px var(--cor_4);
+    transition: 1s;
+}
+
+/*fim pagina home*/
+
+/*Menu paginas*/
+
+.imenu_paginas {
+    text-decoration: none;
+    font-family: var(--font_04);
+    color: var(--cor_4);
+    font-weight: bold;
+    font-size: 1.1em;
+
+}
+
+.imenu_paginas:hover {
+    color: var(--cor_logo);
+
+
+}
+
+.isombra_menu {
+    padding: 1px 10px 0px 10px;
+    transition: 1s;
+}
+
+.isombra_menu:hover {
+    background-color: #307cbf2a;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px var(--cor_4);
+    transition: 1s;
+}
+
+#inave_paginas {
+    text-align: right;
+    position: absolute;
+    left: 480px;
+    top: 185px;
+}
+
+/*style pagina formulario*/
+
+#imain_formulario {
+    width: 900px;
+    margin: auto;
+    padding: 10px 5px 10px 5px;
+
+}
+
+#section_formulario {
+    width: 700px;
+    margin: auto;
+    padding: 20px 5px 20px 5px;
+    background-color: var(--cor_00);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--cor_4);
+}
+
+/*id legenda do cadastro*/
+
+.ilegenda_todas {
+    padding: 0px 5px 0px 5px;
+    font-family: var(--font_01);
+    font-weight: bold;
+
+}
+
+#ilegend_cadastro {
+    text-align: center;
+    font-size: 1.3em;
+    color: var(--cor_logo);
+}
+
+#ilegenda_monte_kit {
+    text-align: center;
+    font-size: 1.3em;
+    color: var(--cor_logo);
+}
+
+label {
+    border-radius: 2px;
+    font-weight: bold;
+    font-family: var(--font_01);
+}
+
+input {
+    border-radius: 2px;
+}
+
+input:focus {
+    background-color: #aca9a93d;
+}
+
+select {
+    border-radius: 2px;
+}
+
+select:focus {
+    background-color: #aca9a93d;
+}
+
+option {
+    border-radius: 2px;
+}
+
+option:focus {
+    background-color: #aca9a93d;
+}
+
+optgroup {
+    border-radius: 2px;
+}
+
+optgroup:focus {
+    background-color: #aca9a93d;
+}
+
+#ifieldset_cadastro {
+    padding: 5px 0px 5px 5px;
+}
+
+fieldset {
+    border-radius: 5px;
+}
+
+.idiv_cadrastro {
+    margin-top: 5px;
+}
+
+/* cadrastro Nome */
+
+#inome {
+    position: relative;
+    margin-left: 16px;
+}
+
+/* cadrastro email*/
+
+#imail {
+    position: relative;
+    margin-left: 13px;
+}
+
+/* monte seu kit */
+
+#iformulario_cameras {
+    width: 670px;
+}
+
+#iformulario_dvr {
+    width: 670px;
+}
+
+#ifieldset_monte_kit {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#ifieldset_modelo_cam {
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#ifiedset_modelo_dvr {
+    padding: 5px;
+    margin-top: 20px;
+}
+
+/* modelo de fontes*/
+
+#iformulario_fontes {
+    width: 300px;
+}
+
+#ifieldset_fontes {
+    width: 300px;
+    padding: 5px;
+    position: relative;
+    top: -25px;
+    left: 378px;
+}
+
+/* rolo de cabo */
+
+#input_rolo_cabo {
+    width: 200px;
+}
+
+#ifieldset_cabo {
+    position: relative;
+    width: 300px;
+    padding: 5px;
+    top: 23px;
+}
+
+#ifieldset_observaçoes {
+    width: 380px;
+    padding: 5px;
+    position: relative;
+    left: 30px;
+}
+
+#idiv_observaçoes {
+    position: relative;
+    left: -30px;
+
+}
+
+#iinput_enviar {
+    margin: 10px 0px 10px 300px;
+}
+
+/*pagina fale conosco */
+
+#imain_fale_conosco {
+    width: 900px;
+    margin: auto;
+    padding: 10px 5px 10px 5px;
+}
+
+#isection_fale_conosco {
+    width: 700px;
+    margin: auto;
+    padding: 20px 5px 20px 5px;
+    background-color: var(--cor_00);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--cor_4);
+}
+
+#idiv_fale_paragrafo {
+    font-family: var(--font_01);
+    background-image: linear-gradient(to right, #307cbf6e, transparent);
+    position: relative;
+    margin: -20px -5px 10px -5px;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 10px;
+}
+
+#idiv_fale_nome {
+    margin-top: 20px;
+}
+
+#idiv_fale_mail {
+    width: 200px;
+    position: relative;
+    top: -38px;
+    left: 394px;
+}
+
+#idiv_fale_assunto {
+    position: absolute;
+    top: 450px;
+}
+
+#idiv_fale_tel {
+    width: 200px;
+    position: relative;
+    top: -25px;
+    left: 394px;
+}
+
+#idiv_fale_mensagem {
+    position: relative;
+    top: -10px;
+}
+
+/*pagina historia CFTV*/
+
+#imain_historia_cftv {
+    width: 1000px;
+    height: 580px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px auto 0px auto;
+    background-image: linear-gradient(to right, #e8f0f8, transparent);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--cor_4);
+
+}
+
+#isection_historia_cftv {
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+.titulos_historia_cftv {
+    background-image: linear-gradient(to right, #307cbf6e, transparent);
+    padding: 5px 0px 5px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#iarticle_historia_cftv {
+    text-align: justify;
+    line-height: 1.2em;
+
+
+}
+
+#idiv_section_histiroa {
+    width: 240px;
+    float: left;
+    margin-top: 20px;
+}
+
+#idiv_section_histiroa>p {
+    text-indent: 30px;
+    
+}
+
+#idiv_article_historia {
+    width: 730px;
+    float: right;
+    margin-top: 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.385);
+    padding-left: 15px;
+
+}
+
+#idiv_article_historia>p {
+    text-indent: 30px;
+    
+    
+
+}
+
+/*pagina transmição*/
+
+#imain_transmissao {
+    width: 1000px;
+    background-image: linear-gradient(to right, #e8f0f8, transparent);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--cor_4);
+    margin: 10px auto 10px auto;
+}
+
+#isection_transmissao>h1 {
+    background-image: linear-gradient(to right, #307cbf6e, transparent);
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px 0px 0px 0px;
+}
+
+#isection_transmissao>h2 {
+    margin: 5px 0px 20px 0px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#isection_transmissao>h3 {
+    margin: 5px 5px 5px 0px;
+    padding-left: 5px;
+}
+
+#isection_transmissao>p {
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 10px;
+}
+
+#idiv_videio_tranmissao {
+    margin: 5px 10px 5px 5px;
+    float: left;
+
+}
+
+#iiframe_transmissao {
+    border-radius: 5px;
+}
+
+#ilink_transmissao {
+    text-decoration: none;
+    color: black;
+}
+
+#ilink_transmissao::after {
+    content: '\1F3A5';
+}
+
+/* pagina Trabalhos*/
+
+#imain_trabalhos {
+    width: 1000px;
+    height: 530px;
+    background-image: linear-gradient(to right, #e8f0f8, transparent);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--cor_4);
+    margin: 10px auto 10px auto;
+}
+
+#idiv_trabalhos_titulo {
+    background-image: linear-gradient(to right, #307cbf6e, transparent);
+    padding: 5px 0px 5px 5px;
+    border-radius: 5px 0px 0px 0px;
+    margin-bottom: 10px;
+}
+
+#idiv_trabalhos_titulo>h1 {
+    padding-left: 10px;
+}
+
+#idiv_foto_gravacao {
+    display: inline-block;
+    width: 500px;
+    margin: 0px 10px 10px 10px;
+}
+
+#idiv_fotos_instalacao {
+    display: inline-block;
+    width: 420px;
+    
+
+}
+
+#idiv_paragrafo_instalacao {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#idiv_paragrafo_instalacao>p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+#idiv_caixa_imagens { 
+    width: 950px;
+    height: 267px;
+    margin: auto;
+    
+}
+
+.cpicture_instalacao {
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.cfotos_trabalhos {
+    border-radius: 5px;
+}
+
+
+/*rodape de todas as paginas*/
+
+.cfooter_geral {
+    text-align: center;
+    height: 30px;
+    background-image: linear-gradient(to top, #565aa6a8, transparent);
+}
+
+.cfooter_geral>p {
+    font-family: var(--font_01);
+    padding-top: 10px;
+}
+
+.cfooter_geral strong>a {
+    text-decoration: none;
+    color: var(--cor_4);
+}
+
+#ifooter_index {
+    position: relative;
+    top: 213px;
+}
+
+#ifooter_historia {
+    position: relative;
+    top: 67px;
+}
+
+#ifooter_fale_conosco {
+    position: relative;
+    top: 77px;
+}
+
+#ifooter_trasmissao {
+    position: relative;
+    top: 47px;
+}
+
+#ifooter_trabalhos {
+    position: relative;
+    top: 107px;
+
+}
+
+/*fim do CSS todas as paginas*/
