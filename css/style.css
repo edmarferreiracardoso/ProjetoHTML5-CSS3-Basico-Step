@@ -304,16 +304,16 @@ fieldset {
 /* monte seu kit */
 
 #iformulario_cameras {
-    width: 670px;
+    width: 677px;
 }
 
 #iformulario_dvr {
-    width: 670px;
+    width: 677px;
 }
 
 #ifieldset_monte_kit {
     margin-top: 20px;
-    padding: 5px;
+    padding: 5px 2px 5px 5px;
 }
 
 #ifieldset_modelo_cam {
@@ -337,7 +337,7 @@ fieldset {
     padding: 5px;
     position: relative;
     top: -25px;
-    left: 378px;
+    left: 375px;
 }
 
 /* rolo de cabo */
@@ -357,7 +357,7 @@ fieldset {
     width: 380px;
     padding: 5px;
     position: relative;
-    left: 30px;
+    left: 28px;
 }
 
 #idiv_observaçoes {
@@ -452,8 +452,6 @@ fieldset {
 #iarticle_historia_cftv {
     text-align: justify;
     line-height: 1.2em;
-
-
 }
 
 #idiv_section_histiroa {
@@ -463,8 +461,7 @@ fieldset {
 }
 
 #idiv_section_histiroa>p {
-    text-indent: 30px;
-    
+    text-indent: 30px;    
 }
 
 #idiv_article_historia {
@@ -473,13 +470,10 @@ fieldset {
     margin-top: 20px;
     border-left: 1px solid rgba(0, 0, 0, 0.385);
     padding-left: 15px;
-
 }
 
 #idiv_article_historia>p {
     text-indent: 30px;
-    
-    
 
 }
 
